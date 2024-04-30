@@ -562,6 +562,7 @@ a{
 a h3{
     font-size: 14px;
     font-weight:200;
+    color:white;
 }
 .file{
     display: flex;
@@ -570,6 +571,13 @@ a h3{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.file a:hover{
+  
+    background-color: #4b4c4c;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.4);
+    border-radius: 5px;
 }
 .logo-2{
     position: absolute;
